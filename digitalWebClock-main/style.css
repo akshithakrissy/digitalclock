@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@100;200;300;400;500;600;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+  background-image: url("./images/bg--palms.jpeg");
+  overflow-y: hidden;
+  user-select: none;
+}
+
+
+header {
+  height: 100vh;
+  width: 100%;
+  
+}
+
+h3 {
+  margin-top: 40px;
+  font-size: 30px;
+}
+
+
+.blur-back {
+  width: 60%;
+  letter-spacing: 6px;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: ease 0.5s;
+}
+
+.blur-back:hover {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+
+@media (max-width: 480px) {
+
+  .blur-back {
+    width: 80%;
+  }
+
+  h1 {
+    /* width: 70%; */
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+}
+
+#formatButton {
+  width: 20%;
+  letter-spacing: 6px;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: ease 0.5s;
+  color: #fff;
+}
+#formatButton:hover {
+  background-color:black;
+}
+
+
